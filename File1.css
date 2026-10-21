@@ -1,0 +1,314 @@
+.Mainscreen{
+    height: 3600px;
+    width: 100%;
+    border: solid 2px green;
+    background-color: transparent
+}
+.FirstScreen{
+    height: 1800px;
+    width: 100%;
+    border: solid 2px green;
+    background-color: rgb(8, 24, 8);
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-image: url(images/Main.png);
+    background-size: contain;
+    background-position: top;
+    background-size: 700px 100%;
+    background-repeat: no-repeat;
+    
+}
+.items{
+    height:30px;
+    width: 30%;
+    border: 1px solid rgb(8, 24, 8);
+    margin-right: 10px;
+    justify-items: end; 
+    align-content: center;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    
+}
+.items ul{
+    display:flex;
+}
+.items ul li{
+ list-style: none;
+ margin: 0 5px 0 5px;
+}
+.items ul li a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.First{
+    height: 400px;
+    width: 50%;
+    border: transparent;
+}
+
+.Second{
+    height: 250px;
+    width: 30%;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.205);
+    margin-left: 80px;
+    position: relative;
+    
+
+}
+.Second img{
+  width: 100%;      
+  height: 50px;     
+  display: block;  
+  position: absolute;
+  margin-top: -30px;
+}
+.Third{
+    height: 250px;
+    width: 40%;
+    text-align: center;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.205);
+    margin-right: 50px;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    
+    }
+.Third img{
+  width: 100%;      
+  height: 50px;     
+  display: block;  
+  position: absolute;
+  padding-top: -40;
+
+}
+.Fourth{
+    height: 275px;
+    width: 60%;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.205);
+    margin-top: 200px;
+    margin-right: 20%;
+    right: 0;
+    position: absolute;
+    display: flex;
+    
+}
+.child1{
+     height: 400px;
+     width: 40%;
+     background-color: transparent;
+}
+.child2{
+     height: 400px;
+     width: 60%;
+     background-color: transparent;
+     text-align: center;
+}
+.child1 img{
+  width: 100%;      
+  height: 50px;     
+  display: block;  
+  
+}
+.Fifth{
+    height: 275px;
+    width: 60%;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.205);
+    margin-top: 600px;
+    margin-right: 20%;
+    right: 0;
+    position: absolute;
+    display: flex;
+    
+}
+.Box1{
+     height: 400px;
+     width: 60%;
+     background-color: transparent;
+     text-align: center;
+}
+.Box2{
+     height: 400px;
+     width: 40%;
+     background-color: transparent;
+}
+.Box2 img{
+  width: 100%;      
+  height: 50px;     
+  display: block;  
+  
+}
+.Secondscreen{
+    height: 1800px;
+    width: 100%;
+    background-color: rgb(13, 48, 13);
+    text-align: center;
+    
+}
+.Container1{
+    height: 300px;
+    width: 60%;
+    border: transparent;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 20%;
+}
+.Firstclass{
+    height: 300px;
+    width: 20%;
+    text-align: center;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.205);
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    }
+.Firstclass img{
+  width: 100%;      
+  height: 50px;    
+  position: absolute;
+  margin-top: -30px;
+}
+.Secondclass{
+    height: 300px;
+    width: 20%;
+    text-align: center;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.205);
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    }
+.Secondclass img{
+  width: 100%;      
+  height: 50px;     
+  position: absolute;
+  padding-top: -40;
+}
+.Thirdclass{
+     height: 300px;
+    width: 20%;
+    text-align: center;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.205);
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    }
+.Thirdclass img{
+  width: 100%;      
+  height: 50px;  
+  position: absolute;   
+  padding-top: -20;
+}
+.Container2{
+    height: 300px;
+    width: 60%;
+    border: transparent;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.Fourclass{
+    height: 300px;
+    width: 20%;
+    text-align: center;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.205);
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    }
+.Fourclass img{
+  width: 100%;      
+  height: 50px;  
+  position: absolute;   
+  padding-top: -20;
+
+}
+.Fiveclass{
+    height: 300px;
+    width: 20%;
+    text-align: center;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.205);
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    }
+.Fiveclass img{
+  width: 100%;      
+  height: 50px;  
+  position: absolute;   
+  padding-top: -20;
+}
+.Sixclass{
+    height: 300px;
+    width: 20%;
+    text-align: center;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.205);
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    }
+.Sixclass img{
+  width: 100%;      
+  height: 50px;  
+  position: absolute;   
+  padding-top: -20;
+}
+#buy1{
+    font-size: 50px;
+    color: white;
+    margin: auto 0;
+}
+#buy2{
+    font-size: 50px;
+    color: white;
+    margin: auto 0;
+}
+#buy3{
+    font-size: 50px;
+    color: white;
+    margin: auto 0;
+}
+#buy4{
+    font-size: 50px;
+    color: white;
+    margin: auto 0;
+}
+#buy5{
+    font-size: 50px;
+    color: white;
+    margin: auto 0;
+}
+#buy6{
+    font-size: 50px;
+    color: white;
+    margin: auto 0;
+}
+
+
+
+
+
